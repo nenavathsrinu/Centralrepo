@@ -1,0 +1,18 @@
+main
+touch file-1
+git add .
+git commit -m "mainbranch"
+git push origin main
+
+git pull origin main:new
+git checkot new
+git push origin new:test
+
+git checkout main
+touch file-2
+git add .
+git commit -m "main-to-test"
+git push origin main:test
+-------------------------------------------------------
+for local repo which centraol repo is connected
+git remote -v
