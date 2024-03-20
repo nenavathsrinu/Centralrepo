@@ -9,8 +9,4 @@
 - tabitha:
     name: Tabitha Bitumen
     job: Developer
-    skills:
-      - lisp
-      - fortran
-      - erlang
 
