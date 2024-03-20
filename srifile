@@ -9,4 +9,11 @@
 - tabitha:
     name: Tabitha Bitumen
     job: Developer
-
+#!/bin/bash
+sudo su
+yum update -y
+yum install httpd -y
+cd /var/www/html
+echo "" > index.html
+service httpd start
+chkconfig httpd on
