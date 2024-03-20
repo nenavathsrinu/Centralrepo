@@ -16,3 +16,9 @@ git push origin main:test
 -------------------------------------------------------
 for local repo which centraol repo is connected
 git remote -v
+
+
+
+
+
+
